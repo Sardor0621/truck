@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    background-color: #FFFFFF;
+
+
+}
+.up{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.front{
+    display: flex;
+    margin: 0 -70px;
+
+    
+    
+}
+.grafik{
+    width: 260px;
+}
+.front2{
+    display: flex;
+    width: 250px;
+    line-height: 23px;
+    gap: 5px;
+    
+    
+}
+.navimg{
+    width: 20px;
+    height: 20px;
+    margin: 2px 0;
+}
+.front p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+
+}
+.numbers{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left:190px;
+}
+.numbers img{
+    width: 18.53px;
+    height: 18.53px;
+    margin: 2px 0;
+}
+.line{
+    transform: rotate(90deg);
+    width: 50px;
+    border: 1px solid lightgray;
+    height: 1px;
+    position: relative;
+    left: -20px;
+    top: 20px;
+}
+nav{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+}
+.menu a{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.call{
+    position: relative;
+    left: 190px;
+    width: 179px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4762FF;
+    color: white;
+    border:  none;
+}
+nav img{
+    position: relative;
+    left: -200px;
+}
+.line2{
+    width: 1240px;
+    height: 1px;
+    position: relative;
+    left: 125px;
+    margin: 10px 0;
+    border: 1px solid rgb(237, 236, 236);
+}
+.block{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    width: 496px;
+    margin: 55px 0;
+    position: relative;
+    left: 20px;
+
+}
+.text h3{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 76px;
+}
+.text p{
+    font-size: 17px;
+    margin: 10px 0;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #333333;
+}
+.truck{
+    position: relative;
+    left: 89px;
+}
+.block2{
+    width: 100%;
+
+}
+.textarea{
+    
+    
+    line-height: 60px;
+
+}
+.textarea h3{
+    font-size: 40px;
+    font-weight: 700;
+    width: 648px;
+    margin: 0 50px;
+}
+.textareas{
+    
+    display: flex;
+    justify-content: center;
+}
+.textare p{
+    
+    color: #333333;
+    height: 44px;
+    
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.78px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 50px 0;
+}
+.card{
+    display: flex;
+    width: 505px;
+height: 271px;
+    background-color: #F4F6FA;
+    
+}
+.card h3{
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    z-index: 1;
+    width: 366px;
+
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #333333;
+    width: 253px;
+    margin: 20px 0;
+}
+.caren{
+    width: 340px;
+    height: 271px;
+    display:inline;
+    background-color: #F4F6FA;
+    position: relative;
+    right: 140px;
+    top: 20px;
+    z-index: 0;
+    
+}
+.texts{
+    margin: 25px;
+}
+.company{
+    width: 100%;
+    display: flex;
+    margin: 100px 0 ;
+}
+.textaround{
+    width: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 100px;
+}
+.textaround h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.textaround p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #333333;
+    margin: 20px 0;
+}
+.images{
+
+    display: flex;
+    justify-content: space-around;
+    object-fit: contain;
+    margin: 30px 0;
+    gap: 200px;
+}
+.imagesarea{
+    
+    
+
+}
+.man{
+    position: relative;
+    left: 220px;
+}
+.maps{
+    width: 100%;
+    height: 549px;
+    display: flex;
+    background-color: #F4F4F4;
+
+}
+.map{
+    width: 540px;
+    margin-left: 165px;
+}
+.map h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 90px;
+
+}
+.map p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #333333;
+    margin: 30px 0;
+}
+.location iframe{
+    width: 708px;
+    height: 549px;
+
+}
+.fotos{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.frame27{
+    position: relative;
+    left: 700px;
+    top: -25px;
+    
+}
+.fotochki{
+    font-size: 48px;
+    font-weight: 700;
+    
+    margin: 50px  600px;
+}
+.truckdriver{
+
+    height: 680px;
+    background-repeat: no-repeat;
+    background: url(./images/truck-driver-opening-reservoir-tank-refuel-truck-holding-thumbs-up\ 1.png);
+}
+.cart{
+    z-index: 1;
+    background-color: white;
+    width: 611px;
+    height: 548px;
+    position: relative;
+    left: 660px;
+    top: 80px;
+}
+.cart h3{
+    font-family: Inter;
+font-size: 56px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: left;
+width: 340px;
+margin: 0 55px;
+position: relative;
+top: 20px;
+
+
+
+}
+.cart p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+    width: 467px;
+    margin: 40px 55px;
+    color: #333333;
+}
+.cart input{
+    width: 469px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+     background: #4762FF14;
+     margin: 10px 55px;
+    
+}
+.share{
+    padding: 22px 200px 22px 200px;
+    background-color: #4762FF;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin: 30px 55px;
+}
+.downinfo{
+    background-color: #1A1A1A;
+    width: 100%;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 400px;
+
+}
+.main{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.socials{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.downinfo img{
+    margin: 50px 0;
+    width: 200px ;
+    height: 40px;
+}
+.downinfo h4{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.downinfo p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.textp{
+    margin: 15px 0;
+    line-height: 27px;
+}
+.numberphone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: -45px 0;
+
+}
+.numberphone img{
+    width: 20px;
+    height: 20px;
+}
+.numberphone2{
+    display: flex;
+    align-items: center;
+    margin: -45px 0;
+    gap: 8px;
+
+}
+.numberphone2 img{
+    width: 20px;
+    height: 20px;
+    
+}
+.contact h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.social{
+    margin: 1px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: -30px 0;
+    
+    
+}
+
+.social img{
+    width: 23.41px;
+    height: 23.41px;
+}
+.social2{
+    margin: 1px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: -55px 0;
+    gap: 8px;
+    
+    
+}
+
+.social2 img{
+    width: 23.41px;
+    height: 23.41px;
+}
+.liner{
+    width: 1124px;
+    border: 1px solid  #474747;
+    ;
+    height: 1px ;
+    position: relative;
+    top: -50px;
+    margin: 0 200px;
+}
+.copyright{
+    position: relative;
+    top: -35px;
+    margin: 0 200px;
+    color: white;
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+
+
